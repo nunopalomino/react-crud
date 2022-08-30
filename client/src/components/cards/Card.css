@@ -1,0 +1,35 @@
+.card--container {
+  width: 250px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.card--container:hover {
+  background-color: gray;
+}
+
+.card-id {
+  display: inline-block;
+  float: right;
+  margin-right: 10px;
+  margin-top: 5px;
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  padding: 3px;
+  font-family: monospace;
+}
+
+.card--title {
+  font-family: monospace;
+  display: inline;
+}
+
+.card--data {
+  margin-top: 15px;
+}
+
